@@ -6,6 +6,9 @@ import Registration from './component/Registration';
 
 import Header from './component/Header';
 import LifeCycle from './component/lifeCycle/lifeCycle';
+import Loginform from './component/Loginform/Loginform';
+import './component/Loginform/Loginform.css';
+
 
 
 
@@ -16,6 +19,7 @@ function App() {
       <Registration />`
       <Header /> */}
       <LifeCycle></LifeCycle>
+      <Loginform></Loginform>
     </>
   );
 }
